@@ -36,11 +36,10 @@ namespace EnumDemo
 
         static IEnumerable<int> Odd()
         {
-            for (int i = 1; i <= int.MaxValue; i=i+2)
+            for (int i = 1; i <= int.MaxValue; i = i + 2)
             {
                 yield return i;
             }
-            
         }
     }
 }
